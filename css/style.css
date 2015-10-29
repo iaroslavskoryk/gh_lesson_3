@@ -1,0 +1,17 @@
+body {
+	background: #FAEF94
+}
+.table_one {
+	margin: 0 auto;
+	width: 100%
+}
+.table_two {
+	margin: auto;
+	margin-top: 50px;
+	width: 50%
+}
+.table_three {
+	margin: auto;
+	margin-top: 50px;
+	width: 50%
+}

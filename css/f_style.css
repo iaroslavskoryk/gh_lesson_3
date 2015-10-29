@@ -1,0 +1,29 @@
+ul{
+	list-style: none;
+}
+legend,p {
+	font-weight: bold;
+}
+.italic {
+	font-weight: normal;
+	font-style: italic
+}
+input[type="text"] {
+	width: 200px;
+	border: 1px solid gray;
+	border-radius: 5px
+}
+fieldset{
+	margin-top: 20px;
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+#l_name {
+	margin-top: 20px
+}
+#age {
+	margin-top: 20px
+}
+#man {
+	margin-top: 20px
+}

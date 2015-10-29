@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/f_style.css">
+		<title>Forms</title>
+	</head>
+		<body>
+			<div id="header">
+				<h1>Урок "Формы": теги и их атрибуты</h1>
+				<h2>Расскажите немного о себе...</h2>
+				<p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
+			</div>
+			<div id="content">
+				<form action="#" method="GET">
+					<fieldset>
+						<legend>Коротко о себе</legend>
+							<ul>
+								<li>
+									<label for="f_name">Имя:</label>
+									<input type="text" name="f_name" id="f_name" value="">
+								</li>
+								<li>
+									<label for="l_name">Фамилия:</label>
+									<input type="text" name="l_name" id="l_name" value="">
+								</li>
+								<li>
+									<label for="man">Пол:</label>
+									<input type="radio"name="sex" id="man" value="">
+									<label for="woman">мужской</label>
+									<input type="radio" name="sex" id="woman" value="">
+									<label for="woman">женский</label>
+								</li>
+								<li>
+									<label for="age">Возраст:
+									<input type="text" name="age" id="age" value="">
+									лет</label>
+								</li>
+							</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Подробнее о себе</legend>
+							<ul>
+								<li>
+									<input type="radio" name="sex2" id="y_man" value="">
+									<label for="y_man">Молодой человек</label>
+								</li>
+								<li>
+									<input type="radio" name="sex2" id="y_woman" value="">
+									<label for="y_woman">Девушка</label>
+								</li>
+								<li>
+									<input type="text" name="birthday" id="birth" value="">
+									<label for="birth">Дата рождения</label>
+								</li>
+								<li>
+									<input type="text" name="family" id="family" value="">
+									<label for="family">Семейное положение</label>
+								</li>
+								<li>
+									<input type="text" name="social" id="social" value="">
+									<label for="social">Социальный статус</label>
+								</li>
+								<li>
+									<input type="text" name="live" id="place" value="">
+									<label for="place">Местожительство</label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<p>Что вы обычно делаете на выходных:</p>
+								</li>
+								<li>
+									<input type="checkbox" name="sleep" id="sleep" value="">
+									<label for="sleep">Сплю</label>
+								</li>
+								<li>
+									<input type="checkbox" name="together" id="friends" value="">
+									<label for="friends">Гуляю с друзьями</label>
+								</li>
+								<li>
+									<input type="checkbox" name="fishing" id="fishing" value="">
+									<label for="fishing">Хожу на рыбалку</label>
+								</li>
+								<li>
+									<input type="checkbox" name="play_game" id="playing" value="">
+									<label for="playing">Играю в игры</label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<p>Рассказать о формах в книге, посвященной HTML:</p>
+								</li>
+								<li>
+									<select name="forms">
+										<option value="1">Site frequency</option>
+										<option value="2">another...</option>
+										<option value="3">another..</option>
+									</select>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<p>Сколько книг вы прочитали за свою жизнь:</p>
+								</li>
+								<li>
+									<input type="radio" name="age2" id="books1" value="">
+									<label for="books1">0-10</label>
+								</li>
+								<li>
+									<input type="radio" name="age2" id="books2" value="">
+									<label for="books2">11-20</label>
+								</li>
+								<li>
+									<input type="radio" name="age2" id="books3" value="">
+									<label for="books3">21-50</label>
+								</li>
+								<li>
+									<input type="radio" name="age2" id="books4" value="">
+									<label for="books4">50+</label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<p>Ваши комментарии:</p>
+									<textarea name="comments" cols="40" rows="10"></textarea>
+								</li>
+								<li>
+									<select name="position[]" size="3" multiple="multiple">
+										<option value="1">Первая позиция</option>
+										<option value="2">Вторая позиция</option>
+										<option value="3">Третья позиция</option>
+									</select>
+								</li>
+							</ul>
+					</fieldset>
+					<fieldset>
+						<legend>И в заключении </legend>
+							<ul>
+								<li>
+									<input type="text" name="filled" id="filled" value="Это поле было введено до вас">
+								</li>
+								<li>
+									<p>Email</p>
+								</li>
+								<li>
+									<input type="text" name="mail" value="">
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<p>Хотите ли вы подписатся на самую модную рассылку спама?</p>
+									<p class="italic">Выберите категории</p>
+								</li>
+								<li>
+									<input type="checkbox" name="spam1" id="equip" value="">
+									<label for="equip">Оборудование</label>
+								</li>
+								<li>
+									<input type="checkbox" name="spam2" id="dinner" value="">
+									<label for="dinner">Как приготовить обед</label>
+								</li>
+								<li>
+									<input type="checkbox" name="spam3" id="million" value="">
+									<label for="million">Заработать миллион за два дня!</label>
+								</li>
+							</ul>
+							<ul>
+								<li>
+									<p>На сколько сложная задача:</p>
+								</li>
+								<li>
+									<input type="radio" name="not" id="easy" value="">
+									<label for="easy">Совсем нет</label>
+								</li>
+								<li>
+									<input type="radio" name="little" id="average" value="">
+									<label for="average">Так себе</label>
+								</li>
+								<li>
+									<input type="radio" name="alot" id="hard" value="">
+									<label for="hard">Еле справились</label>
+								</li>
+							</ul>
+					</fieldset>
+					<input type="submit" value="Отправить">	
+				</form>
+			</div>	
+		</body>
+</html>
